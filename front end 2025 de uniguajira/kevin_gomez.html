@@ -3,29 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin Gomez</title>
+    <title>Kevin Gomez | Innovación Tecnológica</title>
     <!-- Enlace al CSS de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Enlace a Google Fonts para la fuente Vollkorn -->
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        h1 {
+        body {
             font-family: 'Vollkorn', serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        h1 {
             background-color: #000;
             color: #fff;
-            padding: 10px;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .bio-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-section {
+            background-color: #e3e3e3;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header class="text-center">
+    <header>
         <h1>Kevin Gomez</h1>
     </header>
-    <main class="container my-5 text-center">
-        <img src="imagesI/kevin.PNG" alt="Foto de Kevin Gomez" class="img-fluid rounded mx-auto d-block mb-4 w-50">
-        <p class="lead">Kevin Gomez es un apasionado por la tecnología, con experiencia en desarrollo web y móvil. Le gusta explorar nuevas herramientas y técnicas para crear soluciones innovadoras.</p>
-        <a href="index.html" class="btn btn-outline-primary">Volver a la página principal</a>
+    <main class="container my-5">
+        <section class="bio-section text-center">
+            <img src="imagesI/kevin.PNG" alt="Foto de Kevin Gomez" class="img-fluid rounded mx-auto d-block mb-4 w-50">
+            <p class="lead">Kevin Gomez es un apasionado por la tecnología, con experiencia en desarrollo web y móvil. Su enfoque está en la creación de soluciones innovadoras que optimicen la experiencia del usuario.</p>
+            <p>Cuenta con un sólido conocimiento en lenguajes de programación modernos, frameworks avanzados y metodologías ágiles. Ha trabajado en diversos proyectos que han impactado positivamente en la digitalización de empresas.</p>
+            <p>Además de su labor profesional, Kevin dedica tiempo a investigar nuevas herramientas tecnológicas, escribir sobre tendencias digitales y compartir conocimientos en comunidades de desarrollo.</p>
+        </section>
+        <section class="contact-section mt-4">
+            <h2>Contacto</h2>
+            <p>Si quieres saber más o colaborar en proyectos, puedes contactarlo a través de:</p>
+            <a href="mailto:kevin.gomez@email.com" class="btn btn-primary">Enviar un correo</a>
+            <a href="https://linkedin.com/in/kevingomez" class="btn btn-outline-dark">LinkedIn</a>
+        </section>
+        <div class="text-center mt-4">
+            <a href="index.html" class="btn btn-outline-primary">Volver a la página principal</a>
+        </div>
     </main>
+    <footer>
+        <p>&copy; 2025 Kevin Gomez | Innovación Tecnológica</p>
+    </footer>
 </body>
 </html>
