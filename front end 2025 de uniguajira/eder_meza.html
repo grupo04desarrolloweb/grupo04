@@ -1,33 +1,92 @@
-<!-- Eder Meza -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eder Meza</title>
+    <title>Eder Meza | Desarrollo Backend & Arquitectura de Software</title>
     <!-- Enlace al CSS de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Enlace a Google Fonts para la fuente Vollkorn -->
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        h1 {
+        body {
             font-family: 'Vollkorn', serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        h1 {
             background-color: #000;
             color: #fff;
-            padding: 10px;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .bio-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .skills-section {
+            background-color: #e3e3e3;
+            padding: 20px;
+            border-radius: 8px;
             text-align: center;
         }
+        .contact-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 20px;
+        }
     </style>
-
 </head>
 <body>
     <header>
         <h1>Eder Meza</h1>
-    <main class="container my-5 text-center">
-        <img src="imagesI/eder.jpg" alt="Foto de Eder Meza" class="img-fluid rounded mx-auto d-block mb-4 w-50">
-        <p class="lead">Eder Meza es un desarrollador enfocado en la programación backend, creando soluciones robustas y escalables para diversos entornos empresariales.</p>
-        <a href="index.html" class="btn btn-outline-primary">Volver a la página principal</a>
+    </header>
+    <main class="container my-5">
+        <section class="bio-section text-center">
+            <img src="imagesI/eder.jpg" alt="Foto de Eder Meza" class="img-fluid rounded mx-auto d-block mb-4 w-50">
+            <p class="lead">Eder Meza es un desarrollador backend con una sólida experiencia en la creación de sistemas escalables y de alto rendimiento.</p>
+            <p>Especializado en arquitectura de software, bases de datos y seguridad informática, trabaja en la optimización de procesos y la integración de soluciones tecnológicas que mejoran la eficiencia empresarial.</p>
+            <p>Ha participado en el desarrollo de plataformas robustas para empresas, aplicando metodologías ágiles y utilizando tecnologías modernas para la automatización y gestión de datos.</p>
+        </section>
+
+        <section class="skills-section mt-4">
+            <h2>Habilidades</h2>
+            <p>Eder domina las siguientes áreas:</p>
+            <ul class="list-unstyled">
+                <li>✔ Desarrollo backend con Python, Java y Node.js</li>
+                <li>✔ Diseño y optimización de bases de datos</li>
+                <li>✔ Seguridad y protección de datos</li>
+                <li>✔ Integración de APIs y microservicios</li>
+                <li>✔ Arquitectura de software escalable</li>
+            </ul>
+        </section>
+
+        <section class="contact-section mt-4">
+            <h2>Contacto</h2>
+            <p>Si buscas soluciones tecnológicas eficientes o deseas colaborar en proyectos, puedes contactarlo aquí:</p>
+            <a href="mailto:eder.meza@email.com" class="btn btn-primary">Enviar un correo</a>
+            <a href="https://linkedin.com/in/edermeza" class="btn btn-outline-dark">LinkedIn</a>
+        </section>
+
+        <div class="text-center mt-4">
+            <a href="index.html" class="btn btn-outline-primary">Volver a la página principal</a>
+        </div>
     </main>
+    <footer>
+        <p>&copy; 2025 Eder Meza | Desarrollo Backend & Arquitectura de Software</p>
+    </footer>
 </body>
 </html>
